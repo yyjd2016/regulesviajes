@@ -9,6 +9,7 @@ namespace RegulesViaje.Controllers
     public class HomeController : Controller
     {
         //[Authorize]
+        //Ahora comentamos el metodo
         public ActionResult Index()
         {
             return View();
