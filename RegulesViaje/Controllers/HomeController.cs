@@ -8,7 +8,7 @@ namespace RegulesViaje.Controllers
 {
     public class HomeController : Controller
     {
-        //[Authorize]
+        //[Authorize] hhh
         public ActionResult Index()
         {
             return View();
