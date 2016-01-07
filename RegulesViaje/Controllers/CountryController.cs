@@ -18,7 +18,7 @@ namespace RegulesViaje.Controllers
         //private DataContext db = new DataContext();
 
         // GET: /Country/
-        [Authorize]
+        //[Authorize]
         public async Task<ActionResult> Index()
         {
             return View(await db.Countries.ToListAsync());
