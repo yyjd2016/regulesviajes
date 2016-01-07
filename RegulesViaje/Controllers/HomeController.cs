@@ -14,6 +14,10 @@ namespace RegulesViaje.Controllers
             return View();
         }
 
+        /// <summary>
+        /// Este es el comentario del metodo
+        /// </summary>
+        /// <returns></returns>
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
